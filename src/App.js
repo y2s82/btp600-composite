@@ -88,9 +88,9 @@ class App extends Component {
             </Step>
 
 
-            <Step className={'step','center'} data={{x:6000,y:-1000,z:0,scale:8}}>
+            <Step className={'step','center'} data={{x:6000,y:-200,z:0,scale:8}}>
             <div>
-            <h1 className={'center'}>Question?</h1>
+            <h1>Questions?</h1>
             </div>
             </Step>
 

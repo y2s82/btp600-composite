@@ -33,6 +33,11 @@
 .team p{
     font-size:30%;
 }
+.center h1{
+    font-size: 500%;
+    text-align: center;
+    margin:1.5em 0em;
+}
 .center div{
     margin:auto;
     width:100%;
