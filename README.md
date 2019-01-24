@@ -1,3 +1,7 @@
+# Composite
+A presentation material explaining composite pattern in an object oriented programming design
+
+# React Default Stuff
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
