@@ -20,12 +20,16 @@
 }
 .team {
     border: 5px solid black;
-    width: 190px;
+    display:inline-block;
+    float:left;
+    width: 390px;
     padding: .5em;
 }
 
 .team img{
     width: 50px;
+    display:inline-block;
+    float:left;
 }
 .slide img{
     width:100%;
