@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/y2s82/btp600-composite/precache-manifest.2bf742193af685d95a60484e7b4c6c74.js"
+  "/btp600-composite/precache-manifest.622409d83a81c904308d7870ea7a9870.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/y2s82/btp600-composite/index.html", {
+workbox.routing.registerNavigationRoute("/btp600-composite/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
