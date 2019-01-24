@@ -10,7 +10,7 @@ class App extends Component {
         return (
             <Impress fallbackMessage={<p>Browser update required</p>}>
 
-            <Step id={'Title'} className={'step','slide'} data={{x:0,y:0,z:0,rotateX:90}}>
+            <Step id={'Title'} className={'step slide'} data={{x:0,y:0,z:0,rotateX:90}}>
             <h1>Composite</h1>
             <h3>By Tony Sim</h3>
             </Step>
@@ -52,11 +52,11 @@ class App extends Component {
             <p>public:<br/>work()</p>
             </Step>
 
-            <Step className={'step','slide'} data={{x:4000,y:-3000,z:0}}>
+            <Step className={'step slide'} data={{x:4000,y:-3000,z:0}}>
             <img src={diagrampng} alt={'Diagram Missing'}/>
             </Step>
 
-            <Step className={'step','slide'} data={{x:5000,y:-2500,z:0,rotateZ:20}}>
+            <Step className={'step slide'} data={{x:5000,y:-2500,z:0,rotateZ:20}}>
             <h2>Consequences</h2>
             <ul>
             <li>+ Defines class hierarchies</li>
@@ -66,7 +66,7 @@ class App extends Component {
             </ul>
             </Step>
 
-            <Step className={'step','slide'} data={{x:6000,y:-2000,z:0,rotateZ:40}}>
+            <Step className={'step slide'} data={{x:6000,y:-2000,z:0,rotateZ:40}}>
             <h2>Implementation p1</h2>
             <ul>
             <li>Explicit Parent Reference</li>
@@ -76,7 +76,7 @@ class App extends Component {
             </ul>
             </Step>
 
-            <Step className={'step','slide'} data={{x:7000,y:-1500,z:0,rotateZ:60}}>
+            <Step className={'step slide'} data={{x:7000,y:-1500,z:0,rotateZ:60}}>
             <h2>Implementation p2</h2>
             <ul>
             <li>Avoid reference to Leaf/Composite in Component</li>
@@ -88,7 +88,7 @@ class App extends Component {
             </Step>
 
 
-            <Step className={'step','center'} data={{x:6000,y:-200,z:0,scale:8}}>
+            <Step className={'step center'} data={{x:6000,y:-200,z:0,scale:8}}>
             <div>
             <h1>Questions?</h1>
             </div>
