@@ -25,7 +25,7 @@ class App extends Component {
             <Team/>
             </Step>
 
-            <Step className={'step'} data={{x:1200,y:-1300,z:700}}>
+            <Step className={'step'} data={{x:2000,y:-1300,z:700}}>
             <h1>A Department of Teams of Workers</h1>
             <Dept className={'dep'}/>
             </Step>
@@ -41,22 +41,22 @@ class App extends Component {
             <p>public:<br/>work()</p>
             </Step>
 
-            <Step className={'step'} data={{x:1200,y:-3000,z:700}}>
+            <Step className={'step'} data={{x:2000,y:-3000,z:700}}>
             <h1>A Department of Teams of Workers</h1>
             <Dept className={'dep'}/>
             <p>public:<br/>work()</p>
             </Step>
 
-            <Step className={'step'} data={{x:2200,y:-3000,z:1400}}>
+            <Step className={'step'} data={{x:3800,y:-3000,z:1400}}>
             <div id={'compositebox'}> Composite </div>
             <p>public:<br/>work()</p>
             </Step>
 
-            <Step className={'step slide'} data={{x:4000,y:-3000,z:0}}>
+            <Step className={'step slide'} data={{x:4000,y:-4000,z:0}}>
             <img src={diagrampng} alt={'Diagram Missing'}/>
             </Step>
 
-            <Step className={'step slide'} data={{x:5000,y:-2500,z:0,rotateZ:20}}>
+            <Step className={'step slide'} data={{x:5000,y:-3500,z:0,rotateZ:20}}>
             <h2>Consequences</h2>
             <ul>
             <li>+ Defines class hierarchies</li>
@@ -66,7 +66,7 @@ class App extends Component {
             </ul>
             </Step>
 
-            <Step className={'step slide'} data={{x:6000,y:-2000,z:0,rotateZ:40}}>
+            <Step className={'step slide'} data={{x:6000,y:-3000,z:0,rotateZ:40}}>
             <h2>Implementation p1</h2>
             <ul>
             <li>Explicit Parent Reference</li>
@@ -76,7 +76,7 @@ class App extends Component {
             </ul>
             </Step>
 
-            <Step className={'step slide'} data={{x:7000,y:-1500,z:0,rotateZ:60}}>
+            <Step className={'step slide'} data={{x:7000,y:-2500,z:0,rotateZ:60}}>
             <h2>Implementation p2</h2>
             <ul>
             <li>Avoid reference to Leaf/Composite in Component</li>
