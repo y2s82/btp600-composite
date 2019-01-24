@@ -2,7 +2,7 @@
   "name": "composite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/y2s82/btp600-composite",
+  "homepage": "https://y2s82.github.com/btp600-composite",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "impress-react-component": "^1.0.4",
